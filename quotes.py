@@ -18,6 +18,6 @@ for quote in quotes:
     fav_author=quote.findAll('p',{'class':'author'})
     author=fav_author[0].strip()
 
-    print{aquote}
+    print(aquote)
     print(author)
 
